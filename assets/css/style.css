@@ -1,0 +1,77 @@
+/* BOTONES */
+.btn-primary, .btn-secondary {
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: #007aff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #005fcc;
+}
+
+.btn-secondary {
+    background: #eee;
+    color: #333;
+}
+
+.btn-secondary:hover {
+    background: #ddd;
+}
+
+/* TABLA */
+table.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+.tabla th {
+    background: #007aff;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.tabla td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabla tr:hover {
+    background: #f1f4ff;
+}
+
+/* BOTONES ACCIONES */
+.btn-edit {
+    padding: 5px 8px;
+    background: #ffe066;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-delete {
+    padding: 5px 8px;
+    background: #ff6b6b;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/* FORMULARIO EDICIÓN */
+.edit-box {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
